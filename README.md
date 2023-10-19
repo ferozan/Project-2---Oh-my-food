@@ -4,4 +4,4 @@ GitHub URL :
 
 GitHub Pages URL : 
 
-Vercel Deployment UR : 
+Link to website : https://ferozan.github.io/Project-2---Oh-my-food/
