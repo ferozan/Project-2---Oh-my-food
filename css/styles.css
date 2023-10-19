@@ -33,7 +33,7 @@ body {
   background-color: #F2F2F2;
 }
 
-/* @keyframes loading {
+@keyframes loading {
   from {
     transform: rotate(0turn);
   }
@@ -73,7 +73,7 @@ body {
   border-top: 15px solid #a16be0;
   border-radius: 50%;
   animation: loading 2s ease-in-out infinite;
-} */
+}
 
 .fa-solid.fa-location-dot {
   /* display: flex; */
@@ -226,7 +226,7 @@ a {
 }
 
 .box-1:hover {
-  transform: scale(1.05);
+  transform: scale(1.03);
 }
 
 .image-container {
@@ -262,12 +262,11 @@ a {
 }
 
 .fa-regular.fa-heart {
-  /* margin-right: 20px; */
   padding-top: 10px;
   font-size: 25px;
   background: transparent;
   position: relative;
-  /* cursor: pointer; */
+  cursor: pointer;
 }
 
 .fa-stack {
