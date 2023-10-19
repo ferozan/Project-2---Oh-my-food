@@ -323,7 +323,6 @@ footer {
   background-color: #404040;
   color: white;
   padding-left: 15px;
-  
 }
 
 #footer-box {
@@ -392,8 +391,6 @@ footer {
 
 .subpage-title {
   margin-left: 10px;
-  /* text-align: center; */
-  /* flex: 1; */
 }
 
 .menu {
@@ -434,14 +431,6 @@ footer {
   text-align: right;
 }
 
-/* .price-flex {
-  display: flex;
-  justify-content: space-between;
-  padding: 10px 10px;
-  font-size: 14px;
-  align-items: flex-end;
-} */
-
 .dish-info {
   padding-left: 10px;
   display: block;
@@ -460,9 +449,22 @@ footer {
   box-shadow: 0 0px 10px 0 rgba(197, 197, 197, 0.7019607843);
   overflow: hidden;
   transition: 0.3s;
-  /* margin: 20px 0px; */
   cursor: pointer;
   animation: card-slide-up 2s ease-in-out forwards;
+  transform: translateY(100%);
+  opacity: 0;
+  animation: slideIn 0.8s forwards;
+}
+
+@keyframes slideIn {
+  0% {
+    transform: translateY(100%);
+    opacity: 0;
+  }
+  100% {
+    transform: translateY(0);
+    opacity: 1;
+  }
 }
 
 .food-menu:hover {
@@ -482,7 +484,6 @@ footer {
 .food-menu .price-flex {
   white-space: nowrap;
   flex-grow: 1;
-  /* padding: 15px; */
   overflow: hidden;
 }
 
@@ -615,12 +616,15 @@ footer {
   background-color: #F2F2F2;
   border-radius: 20px;
   margin: 30px 30px;
+  padding: 20px;
+  display: grid;
+  justify-items: center;
 }
 
 #h2-info-text {
   background-color: #F2F2F2;
   border-radius: 20px;
-  margin: 30px 30px;
+  margin: 30px 0px 30px 30px;
   display: flex;
   justify-content: center;
   width: 50%;
@@ -637,9 +641,10 @@ footer {
 }
 
 #header-3-text {
-  margin: 35px 0px 10px 100px;
-  font-size: 30px;
+  margin: 35px 0px 20px 65px;
+  font-size: 25px;
   background-color: #F2F2F2;
+  justify-self: left;
 }
 
 #first-btn {
@@ -649,7 +654,6 @@ footer {
 #left-container-info {
   display: flex;
   flex-direction: column;
-  justify-content: center;
   align-items: center;
   width: 100%;
 }
@@ -664,6 +668,8 @@ footer {
 .info-box {
   width: 90%;
   height: 60px;
+  width: 185%;
+  background-color: white;
   transition: background-color 0.3s, transform 0.3s;
 }
 
@@ -731,6 +737,7 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
+  /* height: 60%; */
 }
 
 .menu-center {
@@ -753,5 +760,6 @@ footer {
   padding: 15px 55px;
   margin-left: 5px;
   border-radius: 25px;
+  width: 15%;
 }
 }
