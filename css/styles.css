@@ -372,6 +372,7 @@ footer {
   width: 100%;
   align-items: baseline;
   text-align: center;
+  /* padding-bottom: 10px; */
 }
 
 .fa-solid.fa-arrow-left {
@@ -385,12 +386,13 @@ footer {
 
 .food-img {
   width: 100%;
-  max-height: 300px;
+  max-height: 475px;
   object-fit: cover;
 }
 
 .subpage-title {
   margin-left: 10px;
+  font-size: 24px;
 }
 
 .menu {
@@ -524,7 +526,7 @@ footer {
 }
 
 .menu-headings {
-  margin: 30px 0px 10px 20px;
+  margin: 40px 0px 10px 20px;
   width: 100%;
 }
 
@@ -604,6 +606,10 @@ footer {
   height: 400px;
   object-fit: cover;
 }
+
+.subpage-title {
+  font-size: 30px;
+}
 }
 
 /* Desktop */
@@ -659,6 +665,7 @@ footer {
 }
 
 .info-section {
+  width: 100%;
   margin-bottom: 50px;
   display: flex;
   flex-direction: column;
@@ -666,9 +673,8 @@ footer {
 }
 
 .info-box {
-  width: 90%;
+  width: 85%;
   height: 60px;
-  width: 185%;
   background-color: white;
   transition: background-color 0.3s, transform 0.3s;
 }
@@ -728,7 +734,11 @@ footer {
 }
 
 #restaurant-title {
-  width: 96%;
+  width: 92%;
+}
+
+.subpage-title {
+  font-size: 30px;
 }
 
 .menu {
