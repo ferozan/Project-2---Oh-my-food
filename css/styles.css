@@ -95,13 +95,8 @@ body {
   perspective: 1000px;
   padding: 10px 20px;
   border-top: 1px solid lightgray;
-  /* align-items: center; */
-  /* text-align: center; */
   background-color: #E0E0E0;
   height: 50px;
-  /* box-shadow: 0px -1px 5px rgba(0, 0, 0, 0.3); */
-  /* margin-top: 10px; */
-  /* margin-bottom: 40px; */
   box-shadow: 0px -5px 10px rgba(0, 0, 0, 0.1)
 }
 
@@ -617,7 +612,7 @@ footer {
 
 .nav-section {
   width: 50%;
-  height: 400px;
+  height: 90%;
   background-color: #F2F2F2;
   border-radius: 20px;
   margin: 30px 30px;
@@ -633,7 +628,7 @@ footer {
   display: flex;
   justify-content: center;
   width: 50%;
-  height: 400px;
+  height: 90%;
 }
 
 #h3-text {
@@ -689,7 +684,7 @@ footer {
 .restaurant-section {
   width: 96%;
   border-radius: 20px;
-  background-color: #F5F5F5;
+  background-color: #F2F2F2;
   margin: 30px 30px 30px 30px;
   display: flex;
   align-content: center;
@@ -746,7 +741,6 @@ footer {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  /* height: 60%; */
 }
 
 .menu-center {
