@@ -76,7 +76,6 @@ body {
 }
 
 .fa-solid.fa-location-dot {
-  /* display: flex; */
   padding-top: 14px;
   padding-right: 5px;
 }
@@ -136,7 +135,6 @@ body {
   padding: 15px;
   background: linear-gradient(to bottom, #FF79DA, #9356DC);
   color: white;
-  /* margin-left: 100px; */
   margin-top: 10px;
   box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.2);
   transition: background-color 0.3s, transform 0.3s;
@@ -226,7 +224,6 @@ a {
 
 .image-container {
   position: relative;
-  /* display: inline-block; */
 }
 
 .card-img {
@@ -366,7 +363,6 @@ footer {
   width: 100%;
   align-items: baseline;
   text-align: center;
-  /* padding-bottom: 10px; */
 }
 
 .fa-solid.fa-arrow-left {
@@ -405,11 +401,9 @@ footer {
   position: relative;
   max-width: 100%;
   height: auto;
-  /* overflow: hidden;  */
 }
 
 .dish-name {
-  /* width: 100%; */
   padding-top: 10px;
   padding-left: 10px;
   font-weight: bolder;
