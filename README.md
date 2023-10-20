@@ -1,6 +1,6 @@
 # Project-2---Oh-my-food
 
-GitHub URL : 
+GitHub URL : https://github.com/ferozan/Project-2---Oh-my-food.git
 
 GitHub Pages URL : 
 
