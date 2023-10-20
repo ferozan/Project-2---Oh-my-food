@@ -604,6 +604,10 @@ footer {
 .subpage-title {
   font-size: 30px;
 }
+
+.menu-page-btn {
+  width: 20%;
+}
 }
 
 /* Desktop */
