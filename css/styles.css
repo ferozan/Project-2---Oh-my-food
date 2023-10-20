@@ -376,7 +376,7 @@ footer {
 
 .food-img {
   width: 100%;
-  max-height: 475px;
+  height: 370px;
   object-fit: cover;
 }
 
@@ -428,6 +428,13 @@ footer {
   font-size: 13px;
 }
 
+.dish-info:hover {
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+  max-width: 200px;
+}
+
 .food-menu {
   display: flex;
   justify-content: space-between;
@@ -440,7 +447,6 @@ footer {
   overflow: hidden;
   transition: 0.3s;
   cursor: pointer;
-  animation: card-slide-up 2s ease-in-out forwards;
   transform: translateY(100%);
   opacity: 0;
   animation: slideIn 0.8s forwards;
@@ -717,7 +723,7 @@ footer {
 
 .food-img {
   width: 100%;
-  height: 500px;
+  height: 650px;
   object-fit: cover;
 }
 
